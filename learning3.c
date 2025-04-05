@@ -4,13 +4,13 @@ void printname(); // declaration/prototype
 void greeting();
 int main()
 {
-    // printname(); //function call
-    // greeting();
+    printname(); //function call
+    greeting();
     
 }
 void printname() //function definition.
 {
-    printf("Rajeev Gupta");
+    printf("Rajeev Gupta\n");
 }
 // Qn: write a function that prints Namaste if user is indian and Bonjour if the user is french.
 void greeting(){
